@@ -7,9 +7,9 @@ h1{
 }
 .escondido{
     color: transparent;
-    margin-top: 450px;
+    margin-top: 350px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: 500px;
+    margin-left: 400px;
     animation-name: mover;
     animation-duration: 10s;
     animation-iteration-count: infinite;
@@ -17,13 +17,35 @@ h1{
 }
 a{
     text-decoration: none;
+    cursor: default;
+    color: transparent;
 }
 
-@keyframes mover {
-    0%{
-        left:0px;
-    }
-    100% {
-        left: 200px;
-    }
+.uno{
+    margin-top: -250px;
+    margin-left: 200px;
+    position: absolute;
+}
+.dos{
+    margin-top: -100px;
+    margin-left: 300px;
+    position: absolute;
+}
+.tres{
+    margin-top: -200px;
+    margin-left: 400px;
+    position: absolute;
+}
+.centrar{
+    display: flex;
+    justify-content: space-around;
+}
+.pista{
+    max-width: 500px;
+    
+}
+.centrar2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
